@@ -22,8 +22,7 @@
 
                 <?php if (isset($_SESSION["email"])) : ?>
                     <div class="text-right">
-                        User:
-                        <? = $_SESSION [ "email" ]; ?>
+                        User: <? = $_SESSION["email"]; ?>
                         <a href="Logout.php">Sair</a>
                     </div>
 

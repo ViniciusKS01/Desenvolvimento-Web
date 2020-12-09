@@ -4,6 +4,6 @@
 	$usuario = "root";
 	$password = "" ;
 	$bd = "sisacademico";
-	$conexao = new mysqli ($host, $user, $password, $bd); 
+	$conexao = new mysqli ($host, $usuario, $password, $bd); 
 
 ?>
